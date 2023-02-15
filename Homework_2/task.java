@@ -1,3 +1,11 @@
+
+/**
+ * Написать метод который приводит сторку к нормальному виду строка на вход
+ * Добрый день Как дела Все хорошо
+ * выход
+ * Добрый день. Как дела. Все хорошо.
+ */
+
 public class task {
     public static void main(String[] args) {
         String text = "    Доброе утро     Как дела        Хорошего дня";
@@ -23,7 +31,5 @@ public class task {
             stringBuilder.append('.');
             return stringBuilder.toString();
         }
-
     }
-
 }
