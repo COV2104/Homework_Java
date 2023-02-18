@@ -3,6 +3,10 @@ package Homework_3;
 import java.util.Arrays;
 import java.util.Random;
 
+/**
+ * Task_3
+ * Реализовать алгоритм сортировки слиянием
+ */
 public class task3 {
     public static void main(String[] args) {
         int[] result = createArray();
